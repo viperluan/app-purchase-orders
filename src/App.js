@@ -6,7 +6,7 @@ import axios from 'axios';
 import PurchaseOrders from './components/PurchaseOrders';
 
 function App() {
-  const BASE_URL = 'http://localhost:3001/';
+  const BASE_URL = 'https://purchase-orders-web-service.herokuapp.com';
 
   const [purchaseOrders, setPurchaseOrders] = useState([]);
   const [numberOfRequests, setNumberOfRequests] = useState(0);
